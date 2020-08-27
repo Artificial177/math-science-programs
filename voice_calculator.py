@@ -1,10 +1,22 @@
+'''
+This is a numerical calculator which is voice enabled. 
+You can enter numerical calculations with multiple terms, and it works through the order of operations correctly. 
+'''
+
 import sys
 import math
 import tkinter as tk
 import operator
 
+#TODO: Add functionality for larger numbers and nested parenthesis.
+
 '''
+How to Run:
 You will need the speechrecognition, pyttsx3, and pyaudio modules.
+You will be prompted to speak, but wait until "speak" appears in the console until you start speaking.
+Currently, the calculator doesn't support nested parenthesis and may run into an error with large exponents, 
+but it can run most numerical calculations aside from that.
+Have Fun!
 '''
 
 try:
@@ -33,7 +45,7 @@ mic = sr.Microphone()
 with sr.Microphone() as source:
    engine.say("What do you want me to solve?")
    engine.runAndWait()
-   print('s')
+   print('speak')
    recording.adjust_for_ambient_noise(source)
    audio = recording.listen(source)
    user_input = recording.recognize_google(audio)
