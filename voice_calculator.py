@@ -4,7 +4,7 @@ import tkinter as tk
 import operator
 
 '''
-You will need the speechrecognition, pyttsx3, and pyaudio.
+You will need the speechrecognition, pyttsx3, and pyaudio modules.
 '''
 
 try:
