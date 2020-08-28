@@ -16,8 +16,6 @@ class GraphUtil(tk.Frame):
       tk.Frame.__init__(self, master)
       self.create_canvas()
 
-
-
    def create_canvas(self):
       figure = plt.figure(figsize=(4.5, 4.5))
       axes = figure.add_axes([0.15, 0.15, 0.65, 0.56])
@@ -27,8 +25,6 @@ class GraphUtil(tk.Frame):
       x = np.arange(-5, 5, 0.005)
       initial_func = x
       axes.plot(x, initial_func)
-
-
 
       self.graph_button=tk.Button(master=main, text="Plot", command=lambda: self.update_graph(canvas, axes),
                                   height=2, width=5)
@@ -52,7 +48,6 @@ class GraphUtil(tk.Frame):
       self.label22=Label(main, textvariable=self.label2, height=4)
       self.label22.grid(row=4, column=1)
 
-
       self.uptext=tk.Label(text="Visualizing Curve Flattening", font=fontStyle)
       self.uptext.grid(row=0, column=0, columnspan=4)
       self.uptext2=tk.Label(text="With Changing Exponents and Coefficients", font=fontStyle)
@@ -63,9 +58,10 @@ class GraphUtil(tk.Frame):
       self.blank2.grid(row=5, column=1)
       self.blank3=tk.Label(text="", font=fontStyle)
       self.blank3.grid(row=10, column=1)
+      
+      #The definition and location of each object in the window.
 
-
-   def update_graph(self, canvas, axes):
+   def update_graph(self, canvas, axes): #This actually updates the graph.
       new_num = self.input_button.get()
       new_coef = self.input_button2.get()
 
