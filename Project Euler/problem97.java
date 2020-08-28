@@ -1,4 +1,3 @@
-package projecteulerjava;
 import java.math.BigInteger;
 
 public class projecteulerjava {
