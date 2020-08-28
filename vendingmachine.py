@@ -1,5 +1,9 @@
 import math
 
+'''
+This is my first real Python project, a console-based 'vending machine'.
+'''
+
 print ("Welcome to the Vending Machine!")
 quarters = input("Enter the number of quarters you wish to insert: ")
 credit_global = float(quarters)*0.25
