@@ -1,6 +1,8 @@
 '''
 This is a numerical calculator which is voice enabled, intended for the visually impaired.
 You can enter numerical calculations with multiple terms, and it works through the order of operations correctly. 
+v1.0 - Voice-controlled calculator with support for basic four-function calculators, exponents, and parenthesis.
+CURRENT: v1.1 - Fixed a bug with the mathematical calculations, and simplified it slightly.
 '''
 
 import sys
@@ -16,8 +18,7 @@ You will need the speechrecognition, pyttsx3, and pyaudio modules.
 You will be prompted to speak, but wait until "speak" appears in the console until you start speaking.
 Currently, the calculator doesn't support nested parenthesis and may run into an error with large exponents, 
 but it can run most numerical calculations aside from that.
-For example, try saying "six times four divded by parenthesis two plus three parenthesis". The program should output 4.8.
-Try saying "four plus two to the power of three times parenthesis six plus one parenthesis". The program should output 
+For example, try saying "six times four divded by parenthesis two plus three parenthesis". The program should output 4.8. 
 Have Fun!
 '''
 
