@@ -26,12 +26,10 @@ public class Main {
         System.out.println("Sorry, I didn't understand that! Please enter \"Easy\", \"Medium\", \"Hard\", \"Insane\", or \"Do Not Enter\".");
       else
         startGame = 66;
-
     }
 
     String theWord = wordChoose(gameMustStart);
     
-
     if(gameMustStart == 5)
       System.out.println("\nWell, you were warned!");
     else
@@ -46,7 +44,6 @@ public class Main {
     System.out.println(".");
     Thread.sleep(900);
     
-
     int gameDone = 6;
     int turnRound = 0;
     int wordLength = theWord.length();
@@ -100,7 +97,6 @@ public class Main {
       }
       System.out.println();
     
-  
       while (gameDone != 0)
       {
         System.out.println("Misses Left: " + gameDone);
@@ -168,8 +164,6 @@ public class Main {
           }
         }
 
-
-
         System.out.println("\n\n");
 
       }
@@ -189,8 +183,6 @@ public class Main {
       }
 
     }
-
-
 
   }
 
