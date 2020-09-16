@@ -4,6 +4,10 @@ import java.lang.String;
 import java.lang.Object;
 import java.lang.Character;
 
+/*
+Console-based Hangman, with multiple difficulty settings.
+*/
+
 public class Main {
   public static void main(String[] args) throws InterruptedException{
     Scanner reader = new Scanner(System.in);
