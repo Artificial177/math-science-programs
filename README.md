@@ -1,3 +1,3 @@
-This is a collection of my major projects, most in mathematics.
+This is a collection of my projects.
 
 
