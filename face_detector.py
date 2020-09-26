@@ -42,7 +42,7 @@ while True:
       gray_reg = gray_frame[y:y+h, x:x+w]
       color_reg = frame[y:y+h, x:x+w]
       eyes = cascade_eye.detectMultiScale(gray_reg, scaleFactor = 1.2)
-      #Uncomment below if you want to try to detect eyes, but it doesn't work quite well yet. 
+      # Uncomment below if you want to try to detect eyes, but it doesn't work quite well yet. 
       for (x1, y1, w1, h1) in eyes:
          #cv2.rectangle(color_reg, (x1, y1), (x1 + w1, y1 + h1), (0, 0, 255), 2)
          pass
