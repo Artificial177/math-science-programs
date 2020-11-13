@@ -6,6 +6,6 @@ If you're struggling on a problem and you're looking for a solution, **please do
 
 ## Languages
 
-I primarily solve problems in either Python or C++, either depending on which is convenient at the time, or which one I want to solve it in. 
+I primarily solve problems in either Python or C++, either depending on which is convenient at the time, or simply which one I *want* to solve it in. 
 
-However, I don't simply restrict it to these two, you'll probably notice some solved in other languages, and this is simply either in an attempt to practice the language, as with the ones solved in F#, which I did as an introduction to functional programming or, whether it has a specific library that I wanted to use to solve it, like Problem 97 solved in Java, for the BigInteger library.
+However, I don't simply restrict it to these two, you'll probably notice some solved in other languages, and this is simply either in an attempt to practice the language, as with the ones solved in F#, which I did as an introduction to functional programming, or whether it has a specific library that I wanted to use to solve it, like Problem 97 solved in Java, for the BigInteger library.
